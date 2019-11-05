@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="JDEIt" max_length="40" name="x_58872_needit_jdeit" sizeclass="3" type="collection">
+        <element label="Approver" mandatory="true" max_length="32" name="u_approver_a" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employment status" mandatory="true" max_length="40" name="u_employment_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Permanent" sequence="0" value="permanent"/>
+                <element inactive_on_update="false" label="Temporary" sequence="1" value="temporary"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="JDE Functionality same as" mandatory="true" max_length="40" name="u_jdefunc_sameas" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="JDE user id" max_length="40" name="u_jde_userid" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Request New Account" sequence="0" value="request new account"/>
+                <element inactive_on_update="false" label="Amend User Rights" sequence="1" value="amend user rights"/>
+            </choice>
+        </element>
+    </element>
+</database>
