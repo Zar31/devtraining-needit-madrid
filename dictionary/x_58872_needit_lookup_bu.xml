@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="LookUp_BU" max_length="40" name="x_58872_needit_lookup_bu" type="collection">
+        <element label="Business unit" max_length="40" name="business_unit" type="string"/>
+    </element>
+</database>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="JDEIt" max_length="40" name="x_58872_needit_jdeit" sizeclass="9" type="collection">
         <element label="Approver" mandatory="true" max_length="32" name="u_approver_a" reference="sys_user" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Business unit" max_length="1024" name="u_business_unit" reference="x_58872_needit_lookup_bu" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Employment status" mandatory="true" max_length="40" name="u_employment_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Permanent" sequence="0" value="permanent"/>
