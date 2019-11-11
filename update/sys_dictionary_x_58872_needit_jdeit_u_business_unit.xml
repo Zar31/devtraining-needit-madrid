@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Business unit</column_label>
+        <column_label>Country</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_58872_needit_lookup_bu">x_58872_needit_lookup_bu</reference>
+        <reference display_value="" name="x_58872_needit_lookup_country">x_58872_needit_lookup_country</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-07 06:51:06</sys_created_on>
         <sys_id>317075501b05001064b6ff37dc4bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Business unit</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Country</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_dictionary_x_58872_needit_jdeit_u_business_unit</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-07 06:51:06</sys_updated_on>
+        <sys_updated_on>2019-11-07 07:24:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
